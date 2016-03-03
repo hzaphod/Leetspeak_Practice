@@ -3,7 +3,10 @@ var leetspeak = function(word) {
 
 var leetWord="";
 
-    for (var i = 0; word.length; i++){
+
+
+
+for (var i = 0; i <word.length; i++){
         if ((word.charAt(i).toLowerCase() === "s") && (i!=0)){
           leetWord = leetWord.concat("z");
         }else if (word.charAt(i).toLowerCase() === "o"){
